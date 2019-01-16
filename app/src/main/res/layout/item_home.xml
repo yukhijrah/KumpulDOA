@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="6dp">
+
+    <!-- ImageView  -->
+    <ImageView
+        android:id="@+id/img_doa"
+        android:layout_width="59dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:src="@drawable/msjd" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/jdwl_sholat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="jadwal sholat  "
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <!-- TextView id Doa  -->
+        <TextView
+            android:id="@+id/wkt_sholat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="21dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="230dp"
+            android:text="3:45 AM"
+            android:layout_alignTop="@+id/jdwl_sholat"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
